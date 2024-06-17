@@ -1,0 +1,83 @@
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+
+  background-position: center;
+  width: 100vw;
+  height: 80vh;
+}
+.groupName {
+  color: white;
+  font-size: 38px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.participants {
+  color: white;
+  font-size: 16px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.groupInfo {
+  width: 80%;
+  height: min-content;
+  position: relative;
+  top: 70%;
+  left: 5%;
+}
+.btn {
+  display: none;
+}
+@media (max-width: 860px) {
+  .btn {
+    font-weight: 700;
+    background: none;
+    display: inline;
+    position: relative;
+    height: min-content;
+    top: 5%;
+    right: 5%;
+    height: 50px;
+    color: white;
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .btn {
+    display: inline;
+    position: relative;
+    height: min-content;
+    top: 5%;
+    right: 20%;
+    height: 50px;
+    color: white;
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .container {
+    height: 95vh;
+  }
+  .groupInfo {
+    top: 60%;
+  }
+  .groupName {
+    color: white;
+    font-size: 28px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .participants {
+    color: white;
+    font-size: 14px;
+
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

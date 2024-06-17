@@ -1,0 +1,24 @@
+.locationinfo {
+  color: #000;
+  opacity: 0.5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.searchbar {
+  border-bottom: 1px solid #000;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  outline: none;
+}

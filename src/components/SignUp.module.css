@@ -1,0 +1,115 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.mycontainer {
+  display: flex;
+  flex-direction: row;
+}
+.mycontainer1 {
+  min-width: 200px;
+  width: 50%;
+}
+.mycontainer2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  width: 50%;
+}
+.btn {
+  width: 100%;
+  border-radius: 40px;
+}
+.passwordcontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+input {
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#signin {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.infosignup {
+  width: 100%;
+  color: #000;
+  opacity: 0.6;
+  text-align: right;
+  font-family: IBM Plex Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.088px;
+}
+.custommodalheader {
+  margin-bottom: 20px;
+  color: #008a45;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+}
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btnsocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min-content;
+
+  margin: 5px 0;
+}
+.forgot {
+  color: #000;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.096px;
+}
+
+.spanb {
+  display: none;
+}
+.spanc {
+  display: none;
+}
+/* media queries */
+@media (max-width: 860px) {
+  .spanc {
+    display: block;
+  }
+  .spanb {
+    display: block;
+  }
+  .spana {
+    display: none;
+  }
+  .mycontainer2 {
+    display: none;
+  }
+  .custommodalheader {
+    display: none;
+  }
+  .mycontainer1 {
+    width: 100%;
+  }
+  .btn {
+    width: min-content;
+  }
+}

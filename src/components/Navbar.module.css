@@ -1,0 +1,41 @@
+.search {
+  height: 25px;
+  position: relative;
+  border: none;
+  font-weight: 500;
+  width: 80%;
+}
+.Navbar {
+  background-color: white;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  width: 162.57px;
+  height: 24px;
+  left: 7%;
+}
+.createaccount {
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  right: 7%;
+}
+.searchIcon {
+  border: none;
+  margin-right: 3px;
+}
+.searchContainer {
+  margin-right: 20%;
+  width: 50%;
+  margin-left: 20%;
+}
+.create {
+  color: rgb(0, 94, 244);
+}
+:hover .create {
+  cursor: pointer;
+}

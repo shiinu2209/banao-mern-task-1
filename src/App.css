@@ -1,0 +1,142 @@
+.Navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.flexm {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.flexme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card {
+  max-width: 692px;
+}
+
+:hover .hoverme {
+  cursor: pointer;
+}
+body {
+  padding-top: 72px;
+}
+.login {
+  display: none;
+}
+.posts {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+.closeit {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+
+  font-size: 30px;
+}
+.mymodal {
+  position: relative;
+  height: min-content;
+  width: 70%;
+  min-width: 400px;
+  background-color: white;
+  box-shadow: black 0px 0px 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+}
+
+/* sticky bar */
+.bar {
+  z-index: 1000;
+  display: block;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+
+  transition: all 0.3s ease;
+}
+
+.sticky {
+  background-color: white;
+  display: block;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  bottom: auto;
+}
+.navbar2 {
+  display: none;
+}
+.id {
+  width: 22vw;
+  margin-left: 2vw;
+}
+@media (max-width: 860px) {
+  .navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .id {
+    display: none;
+  }
+  .posts {
+    justify-content: center;
+  }
+
+  .sticky {
+    display: none;
+  }
+  .bar {
+    display: none;
+  }
+  .mymodal {
+    border-radius: 10px 10px 0 0;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    min-width: 200px;
+    margin-bottom: 0;
+  }
+  hr.solid {
+    border-top: 2px solid #bbb;
+  }
+  .Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    z-index: 1000;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 100%;
+    background-color: rgb(225, 101, 122);
+    height: 50px;
+    width: 50px;
+  }
+}
